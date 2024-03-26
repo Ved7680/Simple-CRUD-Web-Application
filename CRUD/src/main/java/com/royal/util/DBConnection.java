@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-	// 1. Making Credentials
+	// 1. Making Credentials - Write your own JDBC Credentials here
 	private static final String URLNAME = "jdbc:mysql://localhost:3306/veddb";
 	private static final String DRIVERCLASS = "com.mysql.cj.jdbc.Driver";
 	private static final String USERNAME = "root";
